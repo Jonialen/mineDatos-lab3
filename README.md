@@ -13,14 +13,33 @@ CC3074 Minería de Datos | UVG Semestre I 2026
 ### Con uv
 ```bash
 uv sync
-uv run jupyter notebook
 ```
 
 ### Con pip
 ```bash
 pip install -r requirements.txt
+```
+
+## Ejecutar
+
+### Jupyter Notebook (clásico)
+```bash
+uv run jupyter notebook
+# o con pip:
 jupyter notebook
 ```
+
+### JupyterLab
+```bash
+uv run jupyter lab
+# o con pip:
+jupyter lab
+```
+
+### VS Code
+1. Instala la extensión **Jupyter** de Microsoft.
+2. Abre `lab3.ipynb`.
+3. Selecciona el intérprete: `Ctrl+Shift+P` → *Python: Select Interpreter* → elige `.venv` (uv) o el entorno de pip.
 
 ## Uso
 
